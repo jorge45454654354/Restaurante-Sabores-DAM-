@@ -22,3 +22,57 @@
         </ol>
       </details>
     </section>
+
+    <article>
+      <h2>Nuestros servicios</h2>
+      <ul>
+        <li>Terraza exterior</li>
+        <li>Menú infantil</li>
+        <li>Pago con tarjeta</li>
+        <li>Para llevar:
+          <ol>
+            <li>Realiza tu pedido por teléfono o en el local.</li>
+            <li>Confirma hora aproximada de recogida.</li>
+            <li>Pasa por el mostrador y facilita el nombre del pedido.</li>
+            <li>Recoge el pedido y comprueba el contenido antes de salir.</li>
+          </ol>
+        </li>
+      </ul>
+    </article>
+
+    <aside>
+      <h2>Información práctica</h2>
+      <dl>
+        <dt><strong>Horario</strong></dt>
+        <dd>Lunes a sábado: 12:00–23:00</dd>
+        <dd>Domingos: 12:00–17:00</dd>
+
+        <dt><strong>Accesibilidad</strong></dt>
+        <dd>Entrada adaptada y baño accesible.</dd>
+
+        <dt><strong>Aparcamiento</strong></dt>
+        <dd>Zona de estacionamiento gratuito para clientes cercana al local.</dd>
+
+        <dt><strong>Recomendación</strong></dt>
+        <dd>Se aconseja reservar mesa los fines de semana.</dd>
+      </dl>
+    </aside>
+
+    <button id="abrirDialogo">Reservar mesa</button>
+
+    <dialog id="dialogoReserva">
+      <h3>Solicitud de reserva</h3>
+      <ul>
+        <li>Máximo 6 personas por reserva estándar.</li>
+        <li>15 minutos de cortesía tras la hora reservada.</li>
+        <li>Cancelaciones con al menos 24 horas de antelación.</li>
+      </ul>
+      <button id="cerrarDialogo">Cerrar</button>
+    </dialog>
+
+    <script>
+      const dialogo = document.getElementById('dialogoReserva');
+      document.getElementById('abrirDialogo').addEventListener('click', () => dialogo.showModal());
+      document.getElementById('cerrarDialogo').addEventListener('click', () => dialogo.close());
+    </script>
+  </main>
