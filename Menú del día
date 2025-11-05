@@ -1,0 +1,63 @@
+<main>
+    <article>
+      <h2>Menú del día</h2>
+      <p>Platos disponibles hoy:</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Plato</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cazuela de mariscos</td>
+            <td>Primero</td>
+            <td>8,50 €</td>
+            <td><img src="images/Cazuela-de-mariscos.jpg" alt="Cazuela de mariscos" width="180" height="130"></td>
+          </tr>
+          <tr>
+            <td>Ensalada de quinoa y aguacate</td>
+            <td>Ensalada</td>
+            <td>7,00 €</td>
+            <td><img src="images/Ensalada-de-quinoa-y-aguacate.png" alt="Ensalada de quinoa y aguacate" width="180" height="130"></td>
+          </tr>
+          <tr>
+            <td>Codillo glaseado con miel</td>
+            <td>Plato principal</td>
+            <td>12,00 €</td>
+            <td><img src="images/Codillo-glaseado-con-miel.webp" alt="Codillo glaseado con miel" width="130" height="130"></td>
+          </tr>
+          <tr>
+            <td>Tarta de la casa</td>
+            <td>Postre</td>
+            <td>4,50 €</td>
+            <td><img src="images/Tarta-de-la-casa.jpg" alt="Tarta de la casa" width="180" height="130"></td>
+          </tr>
+          <tr>
+            <td>Sopa de verduras casera</td>
+            <td>Primero</td>
+            <td>5,00 €</td>
+            <td><img src="images/Sopa-de-verduras-casera.webp" alt="Sopa de verduras casera" width="180" height="130"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4"><strong>Nota: Bebida no incluida. Menú completo: 15 €</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
+
+    <section aria-labelledby="alergenos-title">
+      <h2 id="alergenos-title">Información de alérgenos</h2>
+      <ul>
+        <li>Contiene gluten en algunos platos.</li>
+        <li>Mariscos y crustáceos presentes en varias recetas.</li>
+        <li>Puede contener trazas de frutos secos.</li>
+        <li>Opciones sin lactosa disponibles bajo petición.</li>
+      </ul>
+    </section>
