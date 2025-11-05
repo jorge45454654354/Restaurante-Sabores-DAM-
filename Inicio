@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Restaurante Sabores DAM</title>
+</head>
+<body>
+  <header>
+    <figure>
+      <img src="images/logo-comida-dam.png" alt="Logotipo Restaurante Sabores DAM" width="160" height="130">
+      <figcaption>Restaurante Sabores DAM</figcaption>
+    </figure>
+
+    <h1>Sabores DAM</h1>
+
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="Comida-dam.html">Inicio</a></li>
+        <li><a href="Comida-dam-carta.html">Carta</a></li>
+        <li><a href="Comida-dam-reservas.html">Reservas</a></li>
+        <li><a href="Comida-dam-contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
