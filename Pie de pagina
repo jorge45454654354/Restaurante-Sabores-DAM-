@@ -1,0 +1,12 @@
+<footer>
+    <address>
+      <strong>Restaurante Sabores DAM</strong><br>
+      Calle Sabores, 42 – Oviedo<br>
+      Tel: <a href="tel:+34985123456">985 123 456</a><br>
+      <a href="mailto:info@saboresdam.es">info@saboresdam.es</a><br>
+      <a href="http://www.saboresdam.es" target="_blank" rel="noopener">www.saboresdam.es</a>
+    </address>
+    <p>&copy; 2025 Restaurante Sabores DAM. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
