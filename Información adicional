@@ -1,0 +1,24 @@
+<section>
+      <h2>Información adicional</h2>
+
+      <details open>
+        <summary><strong>Información de alérgenos</strong></summary>
+        <ul>
+          <li>Contiene gluten en algunos platos.</li>
+          <li>Mariscos y crustáceos presentes en varias recetas.</li>
+          <li>Puede contener trazas de frutos secos.</li>
+          <li>Opciones sin lactosa disponibles bajo petición.</li>
+        </ul>
+      </details>
+
+      <details open>
+        <summary><strong>Política de reservas</strong></summary>
+        <ol>
+          <li>Elige la fecha y hora deseada.</li>
+          <li>Indica el número de asistentes (máx. 6 por reserva estándar).</li>
+          <li>Recibirás una confirmación por correo o teléfono.</li>
+          <li>La reserva se mantiene 15 minutos después de la hora acordada.</li>
+          <li>Si necesitas cancelar, avisa con al menos 24 horas de antelación.</li>
+        </ol>
+      </details>
+    </section>
