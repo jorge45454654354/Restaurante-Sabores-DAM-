@@ -1,9 +1,7 @@
-<main>
-    <article>
+    <section>
       <h2>Menú del día</h2>
-      <p>Platos disponibles hoy:</p>
-
       <table>
+        <caption>Menú del día</caption>
         <thead>
           <tr>
             <th>Plato</th>
@@ -32,7 +30,7 @@
             <td><img src="images/Codillo-glaseado-con-miel.webp" alt="Codillo glaseado con miel" width="130" height="130"></td>
           </tr>
           <tr>
-            <td>Tarta de la casa</td>
+            <td>Tarta de cumpleaños</td>
             <td>Postre</td>
             <td>4,50 €</td>
             <td><img src="images/Tarta-de-la-casa.jpg" alt="Tarta de la casa" width="180" height="130"></td>
@@ -50,14 +48,4 @@
           </tr>
         </tfoot>
       </table>
-    </article>
-
-    <section aria-labelledby="alergenos-title">
-      <h2 id="alergenos-title">Información de alérgenos</h2>
-      <ul>
-        <li>Contiene gluten en algunos platos.</li>
-        <li>Mariscos y crustáceos presentes en varias recetas.</li>
-        <li>Puede contener trazas de frutos secos.</li>
-        <li>Opciones sin lactosa disponibles bajo petición.</li>
-      </ul>
     </section>
